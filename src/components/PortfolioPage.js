@@ -10,4 +10,4 @@ const PortfolioPage = (props) => (
     </div>
 );
 
-
+export default PortfolioPage;
