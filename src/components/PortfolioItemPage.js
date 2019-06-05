@@ -7,3 +7,4 @@ const PortfolioItemPage = (props) => (
     </div>
 );
 
+export default PortfolioItemPage;
