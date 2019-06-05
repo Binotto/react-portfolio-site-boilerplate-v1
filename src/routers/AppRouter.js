@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
 import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 import HomePage from '../components/HomePage';
+import ContactPage from '../components/ContactPage';
 
 
 const AppRouter = () => (
@@ -11,6 +12,7 @@ const AppRouter = () => (
             <Header />
             <Switch>
                 <Route path ="/" component={HomePage}/>
+                <Route path="/contact" component={ContactPage}/>
                 <Route component={NotFoundPage} />
             </Switch>
         </div>
