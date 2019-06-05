@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const PortfolioPage = (props) => (
+const PortfolioPage = () => (
     <div>  
         <h1>My Work</h1>
         <p>Checkout the stuff I've done:</p>
