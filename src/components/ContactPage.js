@@ -6,3 +6,5 @@ const ContactPage = () => {
         <p>You can reach me at matheus.binotto@hotmail.com</p>
     </div>
 };
+
+export default ContactPage;
